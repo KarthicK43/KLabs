@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: "Source Sans Pro", sans-serif;
+}
+body{
+    font-family: 'source sans pro';
+}
+.service-banner{
+    margin-top:9vh;
+    height:91vh;
+    max-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background:radial-gradient(ellipse at top left,darkgray,#f15b2b); */
+    /* background: linear-gradient(to right,#ccc ,#f15b2b); */
+    filter: contrast(150%);
+    /* filter: blur(5px); */
+    animation: animator 1s linear;
+}
+@keyframes animator{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.service-banner h2{
+    display: none;
+    letter-spacing: 50px;
+    color:orange;
+    text-shadow: 2px 2px black;
+}
+.content{
+    position: absolute;
+    left: 0;
+    top:0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding:50px;
+    opacity: 0.9;
+    justify-content: center;
+}
+.service-content{
+    display: flex;
+    padding:50px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+}
+.service-content p{
+    width:80%;
+    font-size: 20px;
+}
+.content .col-md-6 img{
+    width:90%;
+    animation: animator 1s linear;
+}
+
+@keyframes animator{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.service-content code{
+    font-size: 25px;
+    font-family: "Source Sans Pro", sans-serif;
+    
+}
+
+
+
+.service-content h1{
+    color:gray;
+}
+.content img{
+    height:250px;
+    width:70%;
+}
+
+#logo{
+    margin-left: 30px;
+}
+.counter {
+	margin: 0;
+	max-width: 100vw;
+	/* margin-top: 9vh; */
+	margin-bottom: 10px;
+	text-align: center;
+	background-color: #191919;
+	color: #aa4422;
+	padding: 50px;
+	font-family: "Source Sans Pro", sans-serif;
+}
+@media(max-width:900px){
+    .loader{
+        flex-direction: column;
+    }
+    .loader-title{
+        margin-top:50px;
+    }
+}

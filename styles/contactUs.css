@@ -1,0 +1,43 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+.contactdiv {
+	max-width: 99.9vw;
+	min-height: 100vh;
+	padding: 0px;
+	display: flex;
+	flex-direction: row;
+	padding-bottom: 100px;
+	align-items: center;
+	justify-content: center;
+	margin-top: 11vh;
+}
+.contactform {
+	padding: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+input {
+	display: block;
+}
+.form-control:focus {
+	border: 2px solid#f15b2b;
+	opacity: 0.9;
+	box-shadow: 0 1px 1px #f15b2b inset, 0 0 8px #f15b2b;
+}
+.readmore {
+	margin-top: 10px;
+	align-self: right;
+}
+.contactform label,
+.contactform div {
+	margin-top: 10px;
+}
+.mapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0px;
+}
